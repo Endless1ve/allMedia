@@ -1,0 +1,6 @@
+@import url("./phone-text.css");
+@import url("./phone-image.css");
+
+.contact__phone{
+    display: flex;
+}

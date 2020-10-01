@@ -1,0 +1,5 @@
+@import url("./__link/element__link.css");
+@import url("./__image/element__image.css");
+.menu__element{
+    margin-right: 20px;
+}

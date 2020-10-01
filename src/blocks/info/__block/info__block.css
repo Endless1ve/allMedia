@@ -1,0 +1,18 @@
+@import url("./triangle/triangle-up.css");
+@import url("./triangle/triangle-down.css");
+@import url("./triangle/triangle-image.css");
+@import url("./triangle/down-link.css");
+@import url("./rectangle/rectangle.css");
+@import url("./rectangle/rectangle-text.css");
+
+.info__block{
+    margin-left: 117px;
+}
+
+.info__block:nth-child(2){
+    margin-left: 129px;
+}
+
+.info__block:nth-child(3){
+    margin-left: 230px;
+}

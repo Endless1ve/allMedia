@@ -1,0 +1,9 @@
+@import url('./__phone/contact__phone.css');
+@import url('./__link/contact__link.css');
+
+.contact{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 5%;
+    height: 17px;
+}

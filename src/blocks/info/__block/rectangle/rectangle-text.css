@@ -1,0 +1,10 @@
+.rectangle-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 110%;
+    text-align: center;
+    letter-spacing: -0.04em;
+    font-feature-settings: 'salt' on, 'ss01' on;
+    color: #00517C;
+}

@@ -1,0 +1,8 @@
+@import url("./menu/menu.css");
+@import url("./header__logo.css");
+@import url("./contact/contact.css");
+
+.header{
+    display: flex;
+    padding: 10px 20px;
+}

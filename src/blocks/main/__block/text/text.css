@@ -1,0 +1,29 @@
+.text{
+    margin: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 153.5%;
+    text-align: center;
+    letter-spacing: 0.18em;
+}
+
+.text-span{
+    border-radius: 15px;
+    padding: 2px 5px;
+}
+
+.span1{
+    background-color:rgba(196, 196, 196, 1);
+}
+
+.span2{
+    background-color: rgba(242, 201, 76, 1);
+}
+
+.span3{
+    width: 55%;
+    border-radius: 15px;
+    margin: 0  auto;
+    background-color: rgba(111, 207, 151, 1);
+}

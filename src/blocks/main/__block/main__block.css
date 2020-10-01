@@ -1,0 +1,8 @@
+@import url("./vector/vector.css");
+@import url("./text/text.css");
+
+.main__block{
+    display: flex;
+    margin-left: 18%;
+    margin-top: 50px;
+}

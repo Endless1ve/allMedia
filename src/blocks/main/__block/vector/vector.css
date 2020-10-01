@@ -1,0 +1,26 @@
+.vector-left, .vector-right{
+    position: relative;
+    margin-top: 20px;
+    z-index: -10;
+}
+
+.vector1{
+    position: absolute;
+    top: -19px;
+    left: 77px;
+}
+
+.vector4{
+    height: 291px;
+}
+
+.vector3{
+    position: absolute;
+    top: -21px;
+    left: -20px;
+}
+
+.vector-center{
+    margin: 0 auto;
+    width: 13px;
+}

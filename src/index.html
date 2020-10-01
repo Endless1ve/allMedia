@@ -2,12 +2,101 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Webpack</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AllMediaStudio</title>
     <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
+    <link rel="icon" href="<%=require('./images/favicon.ico')%>" type="image/x-icon">
 </head>
-<body>
-    <h1>Hello</h1>
-    <script src="<%= htmlWebpackPlugin.files.js %>"></script>
+<body class="body">
+    <header class="header">
+        <img src="<%=require('./images/logo.svg')%>" alt="Логотип" class="header__logo">
+        <ul class="menu">
+            <li class="menu__element">
+                <a href="" class="element__link"> <img class="element__image" src="<%=require('./images/menu__images/button.svg')%>" alt="Картинка"> <span>Главная</span>   </a>
+            </li>
+            <li class="menu__element">
+                <a href="" class="element__link"> <img class="element__image" src="<%=require('./images/menu__images/develop.svg')%>" alt="Картинка"> <span>Разработка сайтов</span> </a>
+            </li>
+            <li class="menu__element">
+                <a href="" class="element__link"> <img class="element__image" src="<%=require('./images/menu__images/list.svg')%>" alt="Картинка"> <span>Услуги</span></a>
+            </li>
+            <li class="menu__element">
+                <a href="" class="element__link"> <img class="element__image" src="<%=require('./images/menu__images/man.svg')%>" alt="Картинка"> <span>Кейсы</span></a>
+            </li>
+            <li class="menu__element">
+                <a href="" class="element__link"> <img class="element__image" src="<%=require('./images/menu__images/diamond.svg')%>" alt="Картинка"> <span>Статьи</span></a>
+            </li>
+            <li class="menu__element">
+                <a href="" class="element__link"> <img class="element__image" src="<%=require('./images/menu__images/sign.svg')%>" alt="Картинка"> <span>Контакты</span></a>
+            </li>
+        </ul>
+        <div class="contact">
+            <div class="contact__phone">
+                <img src="<%=require('./images/menu__images/phone.svg')%>" alt="" class="phone-image">
+                <p class="phone-text">+7-(495)-603-1466</p>
+            </div>
+            <a href="#" class="contact__link"><img src="<%=require('./images/menu__images/instagram.svg')%>" alt="" class="link-image"></a>
+            <a href="#" class="contact__link"><img src="<%=require('./images/menu__images/mail.svg')%>" alt="" class="link-image"></a>
+        </div>
+    </header>
+
+    <section class="main">
+
+        <div class="logo">
+            <img src="<%=require('./images/main__logo.svg')%>" alt="" class="logo-image">
+        </div>
+
+        <div class="main__block">
+            <div class="vector-left">
+                <img src="<%=require('./images/vector2.svg')%>"  class="vector2" alt="">
+                <img src="<%=require('./images/vector1.svg')%>"  class="vector1" alt="">    
+            </div>
+
+            <div class="text-block">
+                <p class="text"> <span class="text-span span1">КОМПЛЕКСНАЯ</span> <span class="text-span span2">РАЗРАБОТКА</span></p>
+                <p class="text">И СОПРОВОЖДЕНИЕ</p>
+                <p class="text span3">ВАШЕГО САЙТА</p>
+                <div class="vector-center"><img src="<%=require('./images/vector5.svg')%>"  class="vector5" alt=""></div>
+                
+            </div>
+            
+            <div class="vector-right">
+                <img src="<%=require('./images/vector3.svg')%>"  class="vector3" alt="">    
+                <img src="<%=require('./images/vector4.svg')%>"  class="vector4" alt="">  
+            </div>
+        </div>
+
+        <div class="info">
+            <div class="info__block">
+                <div class="triangle-up"><img src="<%=require('./images/connection.svg')%>" alt="" class="triangle-image"></div>
+                <div class="rectangle"><p class="rectangle-text">Начиная от 
+                    брейншторм-сессии,изучения вашей ниши, создание концепт-дизайна, настройки веб-аналитики и проведения веб-аудита
+                     и многое другое... </p></div>
+                <div class="triangle-down"><a href="#" class="down-link">Смотреть этапы
+                    работ </a></div>
+            </div>
+
+            <div class="info__block">
+                <div class="triangle-up"><img src="<%=require('./images/book.svg')%>" alt="" class="triangle-image"></div>
+                <div class="rectangle"><p class="rectangle-text">Выбрать
+                    какой сайт вам нужен, 
+                   поможет наше мини-руководство</p></div>
+                <div class="triangle-down"><a href="#" class="down-link">выбрать
+                    сайт</a></div>
+            </div>
+
+            <div class="info__block">
+                <div class="triangle-up"><img src="<%=require('./images/ship.svg')%>" alt="" class="triangle-image"></div>
+                <div class="rectangle"><p class="rectangle-text">Разработка сайта проводится настоящими специалистами, котрые любят свое дело.</p></div>
+                <div class="triangle-down"><a href="#" class="down-link">Смотреть команду</a></div>
+            </div>
+        </div>
+        <div class="link">
+            <a href="#" class="info__link">Заказать разработку сайта у нас</a>
+        </div>
+    </section>
+    <script src="<%=htmlWebpackPlugin.files.js %>"></script>
 </body>
 </html>
     

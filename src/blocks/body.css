@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Comfortaa';
+    src: url("../vendor/Comfortaa-Regular.ttf");
+}
+
+.body{
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: 'Comfortaa';
+}
