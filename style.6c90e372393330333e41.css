@@ -1,0 +1,241 @@
+@font-face {
+    font-family: 'Comfortaa';
+    src: url(fonts/99567c98d6afc8602fd7f2c97374d109.ttf);
+}
+
+.body{
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: 'Comfortaa';
+}
+.element__link{
+    text-decoration: none;
+    color: black;
+    display: flex;
+}
+
+.element__link:hover{
+    opacity: 0.8;
+}
+.element__image{
+    margin-right: 5px;
+}
+
+span{
+    margin-top: 2px;
+}
+.menu__element{
+    margin-right: 20px;
+}
+.menu{
+    display: flex;
+    padding: 0;
+    margin-top: 7px;
+    margin-left: 7%;
+    list-style-type: none;
+}
+
+.header__logo{
+    height: 40px;
+    width: 197px;
+}
+.phone-text{
+    margin: 0;
+}
+.phone-image{
+    width: 14px;
+    height: 14px;
+    margin-right: 10px;
+}
+.contact__phone{
+    display: flex;
+}
+.contact__link{
+    margin-left: 10px;
+}
+
+.contact__link:hover{
+    opacity: .7;
+}
+.contact{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 5%;
+    height: 17px;
+}
+
+.header{
+    display: flex;
+    padding: 10px 20px;
+}
+.logo{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.vector-left, .vector-right{
+    position: relative;
+    margin-top: 20px;
+    z-index: -10;
+}
+
+.vector1{
+    position: absolute;
+    top: -19px;
+    left: 77px;
+}
+
+.vector4{
+    height: 291px;
+}
+
+.vector3{
+    position: absolute;
+    top: -21px;
+    left: -20px;
+}
+
+.vector-center{
+    margin: 0 auto;
+    width: 13px;
+}
+
+.text{
+    margin: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 153.5%;
+    text-align: center;
+    letter-spacing: 0.18em;
+}
+
+.text-span{
+    border-radius: 15px;
+    padding: 2px 5px;
+}
+
+.span1{
+    background-color:rgba(196, 196, 196, 1);
+}
+
+.span2{
+    background-color: rgba(242, 201, 76, 1);
+}
+
+.span3{
+    width: 55%;
+    border-radius: 15px;
+    margin: 0  auto;
+    background-color: rgba(111, 207, 151, 1);
+}
+.main__block{
+    display: flex;
+    margin-left: 18%;
+    margin-top: 50px;
+}
+.main{
+    margin-top: 30px;
+}
+
+.triangle-up{
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 300px;
+    height: 80px;
+    background: linear-gradient(to right bottom, transparent 49.5%, rgba(199, 199, 199, 1) 50%) left / 50% 100% no-repeat, linear-gradient(to left bottom, transparent 49.5%, rgba(199, 199, 199, 1) 50%) right / 50% 100% no-repeat;
+}
+.triangle-down {    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 80px;
+    background: linear-gradient(to right top, transparent 49.5%,rgba(169, 167, 167, 1) 50%) left / 50% 100% no-repeat, linear-gradient(to left top, transparent 49.5%, rgba(169, 167, 167, 1) 50%) right / 50% 100% no-repeat;
+}
+.triangle-image{
+    width: 50px;
+    margin-bottom: 10px;
+}
+.down-link{
+    text-align: center;
+    width: 170px;
+    text-decoration: none;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 110%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.down-link:hover{
+    opacity: 0.7;
+}  
+.rectangle{
+    width: 300px;
+    height: 160px;
+    background-color:  rgba(199, 199, 199, 1);
+    border-top:2px solid rgba(238, 238, 238, 1);
+    border-bottom: 2px solid rgba(238, 238, 238, 1);
+}
+.rectangle-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 110%;
+    text-align: center;
+    letter-spacing: -0.04em;
+    font-feature-settings: 'salt' on, 'ss01' on;
+    color: #00517C;
+}
+.info__block{
+    margin-left: 117px;
+}
+
+.info__block:nth-child(2){
+    margin-left: 129px;
+}
+
+.info__block:nth-child(3){
+    margin-left: 230px;
+}
+.link{
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 50%;
+    background: #C7C7C7;
+    mix-blend-mode: normal;
+    opacity: 0.91;
+    border: 4px solid #EEEEEE;
+    box-shadow: 0px 10px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 11px;
+    padding: 20px;
+    text-align: center;
+}
+.info__link{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    color: #00517C;
+}
+
+.info__link:hover{
+    opacity: 0.7;
+}
+
+
+.info{
+    margin: 0 auto;
+    margin-top: -25px;
+    display: flex;  
+}
+
